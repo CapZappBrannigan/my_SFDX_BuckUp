@@ -3,7 +3,7 @@ private inherited sharing class AccountServiceLayer_Tests {
     @isTest
     static void justWriteALogStatementPositive() {
         Test.startTest();
-        AccountServiceLayer.justWriteALogStatement('Hello Stream Viewers');
+        AccountServiceLayer.justWriteALogStatement('Hello Stream Viewersd');
         Test.stopTest();
 
         System.Assert.areEqual(
